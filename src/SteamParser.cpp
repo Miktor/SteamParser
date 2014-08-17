@@ -5,7 +5,7 @@
 #include "Parser.h"
 #include "DotaAPI.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	SteamParser::DotaAPI api("", "570");
 	SteamParser::Parser p(&api);
