@@ -2,9 +2,11 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT(steamparser, 1.0, none)
-AM_INIT_AUTOMAKE(steamparser, 2.6)
+
+AC_INIT([steamparser], [1.0])
 AC_CONFIG_SRCDIR([src/stdafx.cpp])
+AM_INIT_AUTOMAKE
+
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
